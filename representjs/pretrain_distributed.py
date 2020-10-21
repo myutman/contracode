@@ -196,7 +196,7 @@ def pretrain_worker(gpu, ngpus_per_node, config):
             project = "moco-pretrain"
         elif config["loss_mode"] == "hybrid":
             project = "hybrid"
-        wandb.init(name=config["run_name"], config=config, job_type="training", project=project, entity="ml4code")
+        wandb.init(name=config["run_name"], config=config, job_type="training", project=project, entity="myutman")
 
     if gpu is not None:
         logger.info("Use GPU: {} for training".format(gpu))
