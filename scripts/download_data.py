@@ -4,7 +4,7 @@ import os
 
 from tqdm import tqdm
 
-REMOTE_BASE = "https://contrastive-code.s3.amazonaws.com"  # "https://people.eecs.berkeley.edu/~paras/datasets"
+REMOTE_BASE = "https://people.eecs.berkeley.edu/~paras/datasets" #"https://contrastive-code.s3.amazonaws.com"  # 
 SHARED_BASE = Path("/work/paras/contracode/data").resolve()
 DEFAULT_LOCAL_BASE = str((Path(__file__).parent.parent / "data").resolve())
 
