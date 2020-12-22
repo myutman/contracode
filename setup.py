@@ -8,11 +8,11 @@ setup(
     install_requires=[
         "fire",
         "graphviz",
-        "jsbeautifier",
+        #"jsbeautifier",
         "jsonlines",
         "pyjsparser",
-        "tqdm",
-        "requests",
+        #"tqdm==4.50.0",
+        #"requests",
         "regex",
         "loguru",
         "pyarrow",
@@ -20,20 +20,20 @@ setup(
         # Data
         "matplotlib",
         "numpy",
-        "pandas",
+        #"pandas",
         "seaborn",
 
         # PyTorch
         "pytorch-lightning",
-        "torch",
+        #"torch",
         "torchtext",
         "wandb",
 
         # NLP dependencies
-        "sentencepiece",
+        #"sentencepiece",
         "sacremoses",
-        "transformers>=3.2.0",
-        "tokenizers",
+        #"transformers>=2.5.1",
+        #"tokenizers",
         "datasets",
     ],
     extras_require={"test": ["pytest"]}

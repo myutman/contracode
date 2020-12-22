@@ -1,3 +1,5 @@
+import .data.*
+
 def get_package_root():
     import os
     from pathlib import Path

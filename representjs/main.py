@@ -9,7 +9,8 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from torch.optim.lr_scheduler import LambdaLR
-import tqdm
+import tqdm.notebook as tqdm
+#import tqdm
 import wandb
 from loguru import logger
 
