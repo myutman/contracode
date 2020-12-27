@@ -1,3 +1,7 @@
+Evaluation results are in <a href="https://github.com/myutman/contracode/blob/master/contracode.ipynb">this notebook</a>
+
+Weights, dataset and SentencePieceModels are in <a href="https://drive.google.com/drive/folders/1dQjUxZskyIsF61Cga89VxLDtD4ETiWR5?usp=sharing">this folder</a>
+
 # Contrastive Code Representation Learning
 By Paras Jain, Ajay Jain, Tianjun Zhang, Pieter Abbeel, Joseph E. Gonzalez and Ion Stoica ([website](https://parasj.github.io/contracode/))
 
